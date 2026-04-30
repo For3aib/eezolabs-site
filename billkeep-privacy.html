@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BillKeep - Privacy Policy</title>
+  <link rel="icon" href="favicon.png">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 700px; margin: 60px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+    h1 { font-size: 24px; } h2 { font-size: 18px; margin-top: 32px; } h3 { font-size: 16px; margin-top: 24px; }
+    a { color: #2D7FF9; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy - BillKeep</h1>
+  <p><strong>Last updated:</strong> April 30, 2026</p>
+  <p>BillKeep is developed by Eezo Lab Development and Innovation (operating as Eezo Labs). This policy explains how BillKeep handles your data.</p>
+
+  <h2>Summary</h2>
+  <p>BillKeep stores your bill and budget information on your own device and optionally in your personal iCloud account. We do not maintain servers that store your financial data. We use a small number of third-party services for AI-powered bill scanning and ad attribution, all described below.</p>
+
+  <h2>Data Stored on Your Device</h2>
+  <p>All bill information you enter — merchant names, amounts, due dates, categories, notes, budgets, and income records — is stored locally on your device using Apple's SwiftData framework.</p>
+
+  <h2>iCloud Sync</h2>
+  <p>If you are signed into iCloud, BillKeep automatically syncs your bill data through your personal iCloud account using Apple's CloudKit. This data is stored under your Apple ID in Apple's iCloud infrastructure, not on any server operated by Eezo Labs. We cannot access, read, or export your iCloud-stored data.</p>
+  <p>iCloud usage is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. You can disable iCloud sync for BillKeep anytime in iOS Settings → [your name] → iCloud → Apps Using iCloud.</p>
+
+  <h2>AI Bill Scanning</h2>
+  <p>When you use the "scan bill" feature, BillKeep sends the photograph you captured to a processing service operated by Eezo Labs, which forwards the image to Anthropic's Claude API for data extraction. The service returns the merchant name, amount, currency, due date, and category to BillKeep.</p>
+  <p>What happens to your scanned images:</p>
+  <ul>
+    <li>Images are transmitted over encrypted HTTPS</li>
+    <li>Images are processed in real time and not stored on Eezo Labs' servers</li>
+    <li>Images are not used to train AI models, per our agreement with Anthropic</li>
+    <li>No personally identifiable metadata is attached to the image during processing</li>
+  </ul>
+  <p>If you prefer not to use this feature, you can enter bill details manually instead.</p>
+
+  <h2>Subscriptions and In-App Purchases</h2>
+  <p>BillKeep offers optional auto-renewable subscriptions processed by Apple through StoreKit. Eezo Labs never sees or stores your payment information — all transactions are handled directly by Apple. We receive only anonymous purchase receipts necessary to unlock features you've paid for.</p>
+
+  <h2>Advertising and Attribution</h2>
+  <p>To measure whether our marketing campaigns are effective, BillKeep participates in privacy-preserving advertising attribution systems:</p>
+
+  <h3>Meta SDK (Facebook / Instagram ads)</h3>
+  <p>If you install BillKeep from a Meta ad, or if you grant tracking permission via the App Tracking Transparency prompt, BillKeep uses Meta's iOS SDK to send anonymous app launch events and aggregated install data.</p>
+  <p>Meta's SDK does not receive any of your bill data, financial information, personal information, photos, or app content. It receives only the events listed above. See <a href="https://www.facebook.com/about/privacy">Meta's privacy policy</a>.</p>
+
+  <h3>TikTok Attribution</h3>
+  <p>If you install BillKeep from a TikTok ad, TikTok may receive anonymous, aggregated install data through Apple's SKAdNetwork framework. BillKeep does not currently integrate the TikTok SDK, so TikTok receives no in-app event data, user data, or app content — only the aggregated install signal Apple's framework provides. See <a href="https://www.tiktok.com/legal/privacy-policy">TikTok's privacy policy</a>.</p>
+
+  <h3>Apple SKAdNetwork</h3>
+  <p>Apple's privacy-preserving attribution framework reports aggregated install data to advertisers without identifying individual users. This is built into iOS and operates independently of any advertising SDK.</p>
+
+  <h3>Apple Search Ads Attribution</h3>
+  <p>If you install BillKeep from an Apple Search Ads campaign, Apple shares anonymous attribution data (which campaign, which keyword) with Eezo Labs.</p>
+
+  <h3>How to opt out</h3>
+  <p>You can opt out of ad tracking by declining the App Tracking Transparency prompt when BillKeep asks, or by going to iOS Settings → Privacy &amp; Security → Tracking → and disabling "Allow Apps to Request to Track." If you opt out, BillKeep still works exactly the same.</p>
+
+  <h2>Analytics</h2>
+  <p>BillKeep does not currently use any product analytics SDKs (such as Mixpanel, Amplitude, or Firebase Analytics). We do not track which features you use within the app.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>BillKeep is not directed at children under the age of 13 and does not knowingly collect data from children.</p>
+
+  <h2>Data Retention and Deletion</h2>
+  <p>Since Eezo Labs does not store your bill data on our servers, there is no server-side deletion to request. To delete your data:</p>
+  <ul>
+    <li><strong>From your device:</strong> delete the app, or remove entries within the app</li>
+    <li><strong>From iCloud:</strong> iOS Settings → [your name] → iCloud → Manage Account Storage → BillKeep → Delete Data</li>
+  </ul>
+  <p>Temporary bill-scan images processed by our AI service are not retained after processing completes.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this policy from time to time. Changes will be reflected on this page with an updated date, and significant changes will be announced in-app.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this policy or your data, contact us at <a href="mailto:support@eezolabs.com">support@eezolabs.com</a>.</p>
+
+  <p style="margin-top: 40px; font-size: 14px; color: #888;">&copy; 2026 Eezo Lab Development and Innovation</p>
+</body>
+</html>
